@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>LearningJavaScript</title>
+      <link rel="stylesheet" href="style.css">
+      <style>
+         body {
+           background-color: rgb(246, 246, 174);
+           
+         }
+         section {
+           background-color: white;
+            padding: 1rem;
+         }
+         form {
+           display: flex;
+           flex-wrap: wrap;
+           gap: 0.7rem;
+           align-items: center;
+         }
+         
+
+          label{
+           padding: 0.6rem 0.9rem;
+           border: 1.5px #d1d5db;
+           border-radius: 8px;
+           font-size: 0.95rem;
+           outline: none;
+           transition: border-color 0.5s;
+         }
+         input:focus {
+           border-color: #4f46e5;
+         }
+         button.add-btn {
+           padding: 0.6rem 1rem;
+           border: none;
+           background-color: #4f46e5;
+           color: white;
+           font-size: 0.9rem;
+           border-radius: 8px;
+           cursor: pointer;
+           font-weight: 600;
+         }
+         button.add-btn:hover {
+           background-color: #4338ca;
+         }
+         .summary{
+          font-size: 0.9rem;
+          color: #292a2c;
+          margin-bottom: 1rem;
+         }
+         ul{
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          padding-left: 0;
+         }
+         li{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background: #f9fafb;
+          border: 1px solid #e5e7eb;
+          border-radius: 8px;
+          padding: 0.6rem 0.9rem;
+         }
+         li span{
+          font-size: 0.9rem;
+          color: #111827;
+         }
+         li button{
+          padding: 0.4rem 1rem;
+          background: white;
+          color: #ba2828;
+          border: 1px solid #ba2828;
+          border-radius: 8px;
+          font-size: 0.9rem;
+          cursor: pointer;
+         }
+       </style>  
+     
+
+   </head>
+   <body>
+    <h1>Introduction to JavaScript</h1>
+    <section>
+    <h2>Shopping List🛍️</h2>
+     <p class="summary"></p>
+     <form>
+      <div>
+        <label for="itemContent">Add an item:</label>
+        <input type="text" name="itemContent" id="itemContent" placeholder="Add an item" />
+      </div>
+      <button type="submit" class=" add-btn">Add Item</button>
+     </form>
+     <ul>
+
+     </ul>
+     </section>
+    
+      
+      
+   
+
+    <!-- <script>
+
+       cnsole.log("Hello World!");
+       introducing javascript to into our file -->
+        <!-- </script>  -->
+   
+  <!-- <script src="practice.js"></script> -->
+   <script src="practice2.js"></script>
+</body>
+
+</html>

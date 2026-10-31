@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1>Enrollment Form</h1>
+    <form action="/enroll" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Course Selection</legend>
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <optgroup label="Available Courses">
+                    <option value="html">HTML Fundamentals</option>
+                    <option value="css">CSS Styling</option>
+                    <option value="javascript">JavaScript</option>
+                </optgroup>
+            </select><br><br>
+        </fieldset>
+        <label for="message">Additional Information:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <label>
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the <a href="/terms">Terms and Conditions</a><br><br>
+        </label>
+        <label for="file">Upload Profile Picture:</label>
+        <input type="file" id="file" name="file" accept="image/*"><br><br>
+        <button type="submit">Enroll</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

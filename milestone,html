@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone project</title>
+</head>
+<body>
+    <header class="header">
+  <div class="logo">
+  <img src="https://res.cloudinary.com/khueylx6/image/upload/v1785410783/javier-miranda-Jn2EaLLYZfY-unsplash_1_qi3xcb.jpg" alt="solar system logo" width="30" height="30">
+  <h1>Explore Our Solar System<br>Through Data</h1>
+    <p>Understand the planets not just by name, but by measurable facts.<br> From size to mass and gravity and density, <br>this page breaks down the solar system in a clear, data-driven way.</p>
+    </div>
+  <section class="navigation-section">
+    <nav class="navigation">
+      <a href="#table">Exlpore Data</a>
+      <a href="#contact">Contact Us</a>
+      
+    </nav>
+  </section>
+  </header>
+
+<main class="main content">
+  <hr>
+  <h2>How Planetary Data Helps Us Understand Space</h2>
+  <p>Planetary science goes beyond images. Comparing mass, diameter, gravity, and density,<br> we gain insight into how planets form, behave, and interact within the solar system.</p>
+    <section class="video-section">
+    <video controls autoplay muted loop width="600" height="300">
+      <source src="https://res.cloudinary.com/khueylx6/video/upload/v1785141539/15439413_1920_1080_30fps_dvtwdr.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <hr>
+     <h2>Visualizing The Differences Between Planets</h2>
+   <P>Each planet in our solar system has unique physical characteristics. <br>Visual comparisons help highlight how vastly<br>  differnt terrestrial planets are from gas gaints and ice giants. </P>
+ <figure>
+    <img src="https://res.cloudinary.com/khueylx6/image/upload/v1785140717/nasa-hubble-space-telescope-rZhFmSl1Jow-unsplash_doftq6.jpg" alt="A visualization of the planet" width="500" height="400" loading="lazy">
+    <figcaption>Our solar system showing the sun and surrounding planets.</figcaption>
+  </figure>
+  
+  <hr>
+  
+   <section id="table" class="table-section">
+    <h2>Planetary Facts at a Glance </h2>
+    <p>Below is a comparative table of major planets in our solar system. The table highlights key<br> physical properties used by astronomers and researchers worldwide. </p><br><br> 
+   </section>
+    <table>
+      <caption>Data about the planets of our solar system(Panetary facts taken from NASA)</caption>
+      <thead>
+        <tr>
+          <th colspan="2"></th>
+          <th scope="col">Name</th>
+          <th scope="col">Mass (10 24kg)</th>
+          <th scope="col">Diameter (km)</th>
+          <th scope="col">Density (kg/m3)</th>
+          <th scope="col">Gravity (m/s2)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <th scope="rowgroup"rowspan="4">Terrestrial planets</th>
+          <th></th>
+        <td>Mercury</td>
+        <td>0.330</td>
+        <td>4,878</td>
+        <td>5427</td>
+        <td>3.7</td>
+          </tr>
+        
+        <tr>
+          <th></th>
+          <td>Venus</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+       </tr>
+        <tr>
+          <th></th>
+          <td>Earth</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td>Mars</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <th scope="rowgroup" rowspan="4">Jovian Planets</th>
+          <th scope="rowgroup" rowspan="2">Gas Giants</th>
+          <td>Jupiter</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <td>Saturn</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <th scope="rowgroup" rowspan="2">Ice Giants</th>
+          <td>Uranus</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <td>Neptune</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+       </tr>
+        <tr>
+          <th scope="row" colspan="2">Dwarf Planets</th>
+          <td>Pluto</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+      </tbody>
+          
+       </table>
+  <hr>
+  
+  <section id="contact" class="contact-section">
+    
+    <form action="Submit" method="Post">
+      <h2>Have Questions About Our Planetary Science?</h2>
+<p>Interested in learnig more about space, astronomy, or how our planetary collected and analyzed? <br> Reach out and we'll get bact to you.</p><br>
+      <fieldset>
+              <legend>Personal Details</legend>
+ <label for="name">Full Name:</label>
+        <Input type="text" id="name" name="name" minlength="10" maxlength="20" placeholder="Full name"required><br><br>
+      <label for="email">Email:</label>
+      <Input type="email" id="email" name="email" placeholder="example@gmail.com"required><br><br>
+      <label for="phone">Phone Number:</label>
+      <Input type="tel" id="phone" name="phone" maxlength="11" placeholder="please enter a valid phone number"required><br><br>
+        </fieldset>
+
+      <label for="city">City:</label>
+      <select id="city" name="city" required>
+        <option value="select a place">select a place</option>
+        <option value="wuse">Wuse</option>
+        <option value="maitama">Maitama</option>
+        <option value="garki">Garki</option>
+        <option value="asokoro">Asokoro</option>
+        <option value="jabi">Jabi</option>
+        <option value="karu">Karu</option>
+        <option value="lugbe">Lugbe</option>
+        <option value="gwarinpa">Gwarinpa</option>
+        <option value="utako">Utako</option>
+        <option value="kubwa">Kubwa</option>
+      </select> <br><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" maxlength="100" placeholder="write your message here...."required></textarea><br><br>
+      <p>How should we contact you?</p>
+      <label for="phoneconnect">Phone</label>
+      <input type="radio" id="phoneconnect" name="conctactmethod" value="phone"required>
+      <label for="email">Email</label>
+      <input type="radio" id="email" name="contactmethod" value="email">
+      <label for="bothcontact">Both</label>
+      <input type="radio" id="bothcontact" name="contactmethod" value="both"><br><br>
+      <p>How did you hear about us?</p>
+      <label for="friend">Friend</label>
+      <input type="checkbox" id="friend" name="source" value="friend">
+      <label for="socialmedia">Social Media</label>
+      <input type="checkbox" id="socialmedia" name="source" value="socialmedia">
+      <label for="others">Others</label>
+      <input type="checkbox" id="others" name="source" value="others"><br><br>
+      <button type="submit">Submit</button>
+      
+      
+      
+    </form>
+  </main>
+<footer class="footer">
+  <a href="#home">Home</a><br>
+  <a href="#about">About</a><br>
+  <a href="#contact">Contact</a><br>
+  <hr>
+
+
+  <h2>My socials
+  </h2>
+  <h2>Social Media</h2>
+      <p> <a href="https://github.com/joyojo181" target="_blank">Github</a>
+        <br>
+        <a href="https://x.com/joygirl_nene" target="_blank">Twitter (X)</a>
+      </p>
+      
+  <p>&copy;2026 Joy Ojo. All rights reserved.
+  </p>
+    <a href="#">Terms &amp; Conditions</a>
+    <a href="#">Privacy Policy</a><br>
+</footer>
+
+
+</body>
+</html>

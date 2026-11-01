@@ -1,5 +1,5 @@
 # My Portfolio
-Hi, I'm Joy a software development student at Ts Academy in Nigeria. This is a collection of my HTML and CSS practice projects.
+Hi, I'm Joy a software development student at Ts Academy in Nigeria. This is a collection of my HTML, CSS and JavaScript practice projects.
 ## What's inside
  - *milestone.html*: A contact form with phone number and email options, a message box and checkboxes
  - *enrolment2.html*: An enrolment form

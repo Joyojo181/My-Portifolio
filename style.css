@@ -43,7 +43,7 @@ select, textarea{
   padding: 8px 10px;
   border: 2px solid var(--soft);
   border-radius: 6px;
-  width: 260px;
+  width: 300px;
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -60,6 +60,7 @@ button, input[type="submit"] {
   boder-radius: 6px;
   padding: 10px 20px;
   cursor: pointer;
+  margin-botton: 16px;
 }
 fieldset{
   border: 2px solid var(--soft);

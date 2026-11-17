@@ -26,10 +26,7 @@ img, video{
   height: auto;
 }
 @media (max-width: 600px) {
-  table{
-    display: block;
     max-width: 100%;
-    overflow-x: auto;
   }
   body{
     padding: 16px 12px;
@@ -41,6 +38,10 @@ img, video{
     display: block;
     margin: 8px 0;
   }
+.table-wrap{
+  overflow-x: auto;
+  max-width: 100%;
+}
 }
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
 select, textarea{

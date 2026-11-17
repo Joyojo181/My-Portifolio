@@ -26,6 +26,10 @@ img, video{
   height: auto;
 }
 @media (max-width: 600px) {
+  table{
+    display: block;
+    overflow-x: auto
+  }
   body{
     padding: 16px 12px;
   }

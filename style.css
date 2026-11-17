@@ -49,10 +49,10 @@ button, input[type="submit"] {
   background: var(--blue);
   color: #ffffff;
   border: none;
-  boder-radius: 6px;
+  border-radius: 6px;
   padding: 10px 20px;
   cursor: pointer;
-  margin-botton: 16px;
+  margin-bottom: 16px;
 }
 fieldset{
   border: 2px solid var(--soft);
